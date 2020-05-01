@@ -1,5 +1,5 @@
 <?php
-/* 取得用戶 IP */
+/ 取得用戶IP
 if (!empty($_SERVER["HTTP_CLIENT_IP"])) {
    $ipAddress = $_SERVER["HTTP_CLIENT_IP"];
 } else if (!empty($_SERVER["HTTP_X_FORWARDED_FOR"])) {
