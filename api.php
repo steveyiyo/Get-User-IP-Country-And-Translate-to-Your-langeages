@@ -23,7 +23,7 @@ curl_close($ch);
 //Google Translate API 將獲取的數值翻譯成你想要的語言
 $token = ""; //可以在 https://console.cloud.google.com/apis/library/translate.googleapis.com 申請
 $target = "zh-TW"; //要轉換的語言
-$souece = "en"; //原始語言
+$source = "en"; //原始語言
 $translteurl = "https://translation.googleapis.com/language/translate/v2?key=".urlencode($token)."&target=".urlencode($target)."&source=".urlencode($source)."&q=".urlencode($data['country']).urlencode($data['city']);
 $transltech = curl_init($translteurl); 
 curl_setopt($transltech, CURLOPT_HTTPHEADER, $translteheadr);
