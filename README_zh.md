@@ -2,7 +2,7 @@
 
 # 取得訪客IP國家並翻譯成其他語言
 
-# Install
+# 安裝
 
 編輯 api.php 的token
 
