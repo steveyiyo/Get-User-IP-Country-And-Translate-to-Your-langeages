@@ -1,6 +1,6 @@
 [README](README.md) | [中文文檔](README_zh.md)
 
-# Get User IP Country
+# Get User IP Country and translate to your language
 
 # Install
 
